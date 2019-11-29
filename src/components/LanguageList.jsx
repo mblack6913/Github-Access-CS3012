@@ -1,6 +1,5 @@
 import React from 'react';
 import BarChart from './BarChart';
-import PieChart from './PieChart';
 
 const pos = {
     display: 'flex',
@@ -30,7 +29,7 @@ const LanguageList = (props) => {
             )}
             </div>
             <div style={posleft}>
-                <BarChart v={langs.split('.')} l={i.split('')} />
+            <BarChart v={langs.split('.')} l={i.split('')} />
                 { i= ''};
                 {langs = ''};
             </div>

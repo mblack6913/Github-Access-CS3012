@@ -82,23 +82,27 @@ class App extends Component {
     const obj = this.state.formData;
     obj[event.target.name] = event.target.value;
     this.setState(obj);
-  };render() {
+  };
+
+
+  render() {
     return (
-      <div className="App">
+    
+      <div className="body">
         <div className="header">
         <header className="App-header">
-          <h1 className="App-title">GitHub Analytics</h1>
+          <h1 className="App-title">GitHub Access</h1>
         </header>
-        <h2>
+        <div className="pos">
         <Form
           formData={this.state.formData}
           handleUserFormSubmit={this.handleUserFormSubmit}
           handleFormChange={this.handleFormChange}
         />
-        </h2>
+        </div>
         </div>
         <hr></hr>
-        <div className="design">
+        <div className="design" >
         Profile Details:
         <ProfileDetails infoclean={this.state.infoclean}/>
         </div>

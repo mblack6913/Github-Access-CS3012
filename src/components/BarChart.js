@@ -13,7 +13,7 @@ const BarChart = (props) => {
                         marker: {color: 'darkgrey'}
                     },
                 ]}
-                layout={{ width: 500, height: 240, title: 'following' }}
+                layout={{ width: 500, height: 240,paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)' }}
             />
         );
     

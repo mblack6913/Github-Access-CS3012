@@ -1,16 +1,16 @@
-body {
-    background-color: rgb(212, 209, 209);
+.body {
+    background-color: rgb(216, 213, 213);
   }
   
   h1 {
     color: darkslategrey;
     padding-top: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
-
+    padding-left: 20px;
 }
 
-h2{
-    padding-left:700px;
+.pos{
+    padding-left:550px;
     padding-top: 30px;
 }
 
@@ -22,4 +22,3 @@ h2{
 .design {
     background-color:  rgb(206, 203, 203);
 }
-  
