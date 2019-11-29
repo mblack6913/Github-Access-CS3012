@@ -1,3 +1,13 @@
+## Github Access - CS3012
+
+![](ezgif-6-165652283f27.gif)
+
+This wep app is a github access tool which retrieves and displays data from the github API using react. It displayes relevant data of the searched user such as name, date joined, blog, location, etc.
+
+Some brief analysis is run on the recieved information to indicate the prefered language. This can be seen visually with a bar chart component implemented using plotly. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
